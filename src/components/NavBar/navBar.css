@@ -1,0 +1,10 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding: 20px 50px;
+}
+
+.navBar>svg {
+    cursor: pointer;
+}
