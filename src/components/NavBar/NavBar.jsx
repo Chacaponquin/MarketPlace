@@ -1,11 +1,13 @@
 import React from "react";
-import { BiMenu } from "react-icons/bi";
+import { BiMenuAltLeft } from "react-icons/bi";
 import "./navBar.css";
 
 const NavBar = ({ setSideBarOpen }) => {
   return (
     <div className="navBar">
-      <BiMenu size={50} color="black" onClick={() => setSideBarOpen(true)} />
+      <BiMenuAltLeft size={50} onClick={() => setSideBarOpen(true)} />
+
+      <a href="/">Account</a>
     </div>
   );
 };

@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Test;
+    src: url("../public/font/FredokaOne-Regular.ttf");
+}
+
+a {
+    text-decoration: none;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +14,15 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow: hidden;
+}
+
 :root {
     --primary-color: #30336b;
+    --second-color: #5f27cd;
+    --third-color: #48dbfb;
+    --four-color: #54a0ff;
+    --five-color: #00d2d3;
+    --six-color: #0abde3;
 }

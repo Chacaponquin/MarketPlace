@@ -2,9 +2,21 @@
     display: flex;
     align-items: center;
     width: 100vw;
-    padding: 20px 50px;
+    padding: 20px 80px;
+    justify-content: space-between;
 }
 
 .navBar>svg {
     cursor: pointer;
+    fill: white;
+}
+
+.navBar>a {
+    padding: 15px 30px;
+    background-color: whitesmoke;
+    border-radius: 16px;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.3s ease all;
 }
